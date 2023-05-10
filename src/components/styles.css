@@ -1,0 +1,17 @@
+/* .header_filter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header_filter * {
+  margin: 0px 10px 0px 0px;
+} */
+
+.recipe {
+  width: 400px;
+  height: fit-content;
+  padding: 20px;
+  margin: 20px 0px;
+
+  border: solid 2px black;
+}
