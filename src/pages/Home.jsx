@@ -18,7 +18,9 @@ function Home() {
         if (filter.title === "") {
           return true;
         } else {
-          return one.title.indexOf(filter.title) !== -1;
+          return (
+            one.title.toLowerCase().indexOf(filter.title.toLowerCase()) !== -1
+          );
         }
       });
 
